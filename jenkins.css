@@ -1,0 +1,46 @@
+body, table, form, input, td, th, p, textarea, select {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+body {
+  background-color: #1d1d1d;
+  -webkit-font-smoothing: antialiased;
+}
+
+a:link {
+  color: #e42;
+}
+
+a:visited {
+  color: #e42;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #3A3531;
+}
+
+#top-panel {
+  background: #1d1d1d;
+}
+
+#top-panel td > a img {
+  display: none;
+}
+
+#main-table {
+  background: #fafafa !important;
+}
+
+#buildHistory tr:nth-of-type(odd) {
+  background: #fafafa;
+}
+
+#footer {
+  border-top-color: #666;
+  margin-top: 50px;
+}
+
+#footer a {
+  color: #ccc;
+}
